@@ -1,18 +1,25 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-  <link rel="icon" href="favicon.ico">
-  <link rel="stylesheet" href="style-9894.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.min.css">
+  <head>
+    <script src="scripts/analytics.js"></script>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.min.css">
 
-  <title>Woodlize - Official website</title>
-</head>
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        document.getElementById('copyright-year').textContent = (new Date()).getFullYear();
+      });
+    </script>
 
-<body>
-  <div id="content">
+    <title>Woodlize - Official website</title>
+  </head>
 
-    <header>
+  <body>
+    
+    <div id="content">
+      <div class="push"></div>
 
       <div id="social">
         <a title="Email us" href="#" target="_blank">
@@ -45,8 +52,12 @@
           </a>
         -->
       </div>
-    </header>
-  </div>
-</body>
+
+      <footer>
+          <p>© <span id="copyright-year">2018</span></p>
+      </footer>
+  
+    </div>
+  </body>
 
 </html>
