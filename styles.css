@@ -1,0 +1,26 @@
+@font-face {
+  font-family: PorterBold;
+  src: url(./fonts/Porter\ Bold.ttf);
+}
+
+body {
+  background-color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: background-image 500ms ease-in-out;
+}
+
+.band-name-wrapper {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#bandName {
+  font-family: "PorterBold";
+  text-transform: uppercase;
+  font-size: 9em;
+  letter-spacing: 0.4em;
+  color: white;
+}
